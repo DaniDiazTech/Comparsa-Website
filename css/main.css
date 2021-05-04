@@ -1,0 +1,13 @@
+/* Apply to all  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  position: relative;
+  width: var(--nav-width);
+}
