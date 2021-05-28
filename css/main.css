@@ -34,7 +34,8 @@ nav {
 }
 
 .title-h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .font-50 {
@@ -43,4 +44,26 @@ nav {
 
 .h-70 {
   height: 70vh;
+}
+
+.eleventh-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.double-text {
+  font-weight: 900;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  padding: 0.5em;
+}
+
+.double-text:nth-child(2) {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  clip-path: inset(-1% -1% 50% -1%);
 }
