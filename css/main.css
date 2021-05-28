@@ -12,6 +12,10 @@ nav {
   max-width: var(--nav-width);
 }
 
+h1 {
+  font-weight: bold;
+}
+
 .content-overview {
   background-image: url("https://github.com/DaniDiazTech/Comparsa-Website/blob/main/images/bg/bg.jpg?raw=true");
   box-shadow: inset 0 0 5rem rgb(0 8 51 / 90%);
